@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Book Appointments</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Book Your Appointment with Dr.Phil Now!</h1>
+      <form>
+        <div class="book-appt">
+          <label for"name">Your Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <div class="book-appt">
+          <label for"date">Appointment Date</label>
+          <input id="date" class="form-control" type="text">
+        </div>
+
+        <div class="book-appt">
+          <label for"start">Start Time</label>
+          <input id="start" class="form-control" type="text">
+        </div>
+
+        <div class="book-appt">
+          <label for"end">End Time</label>
+          <input id="end" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-lg btn-success">Submit!</button>
+      </form>
+      <div id="output">
+        <h2>Confirmation</h2>
+        <p class="confirmName"></p>
+        <p class="confirmDate"></p>
+        <p class="confirmStart"></p>
+        <p class="confirmEnd"></p>
+      </div>
+    </div>
+  </body>
+</html>
